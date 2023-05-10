@@ -1,0 +1,87 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 293
+  ClientWidth = 437
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = xFF592E50
+    Margins.Left = 20.000000000000000000
+    Margins.Top = 20.000000000000000000
+    Margins.Right = 20.000000000000000000
+    Margins.Bottom = 20.000000000000000000
+    Size.Width = 397.000000000000000000
+    Size.Height = 253.000000000000000000
+    Size.PlatformDefault = False
+    XRadius = 20.000000000000000000
+    YRadius = 20.000000000000000000
+    object Nome: TLabel
+      Align = Top
+      StyledSettings = []
+      Size.Width = 397.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Verdana'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = xFF5FDA41
+      TextSettings.HorzAlign = Center
+      Text = 'Nome'
+      TabOrder = 3
+    end
+    object Cargo: TLabel
+      StyledSettings = []
+      Position.Y = 49.000000000000000000
+      Size.Width = 393.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Verdana'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = xFF5FDA41
+      TextSettings.HorzAlign = Center
+      Text = 'cargo'
+      TabOrder = 2
+    end
+    object Telefone: TLabel
+      StyledSettings = []
+      Position.Y = 149.000000000000000000
+      Size.Width = 393.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Verdana'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = xFF5FDA41
+      TextSettings.HorzAlign = Center
+      Text = '(00) 90000-0000'
+      TabOrder = 1
+    end
+    object Email: TLabel
+      StyledSettings = []
+      Position.Y = 99.000000000000000000
+      Size.Width = 393.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Verdana'
+      TextSettings.Font.Size = 18.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = xFF5FDA41
+      TextSettings.HorzAlign = Center
+      Text = 'email'
+      TabOrder = 0
+    end
+    object ShadowEffect1: TShadowEffect
+      Distance = 3.000000000000000000
+      Direction = 45.000000000000000000
+      Softness = 0.600000023841857900
+      Opacity = 0.600000023841857900
+      ShadowColor = claBlack
+    end
+  end
+end

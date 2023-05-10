@@ -1,0 +1,49 @@
+unit Unit1;
+
+interface
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Controls.Presentation, FMX.Edit, FMX.Objects, FMX.Layouts, Visualizador,
+  System.ImageList, FMX.ImgList;
+type
+  TForm1 = class(TForm)
+    Layout2: TLayout;
+    Layout3: TLayout;
+    Layout1: TLayout;
+    Rectangle1: TRectangle;
+    Rectangle2: TRectangle;
+    Rectangle3: TRectangle;
+    NomeEntrada: TEdit;
+    CargoEntrada: TEdit;
+    EmailEntrada: TEdit;
+    TelefoneEntrada: TEdit;
+    AddBTN: TSpeedButton;
+    ImageList1: TImageList;
+    procedure AddBTNClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+var
+  Form1: TForm1;
+implementation
+{$R *.fmx}
+procedure TForm1.AddBTNClick(Sender: TObject);
+var
+  Form2: TForm3;
+begin
+  Form2 := TForm3.Create(nil);
+  try
+    Form2.Nome.Text := NomeEntrada.Text;
+    Form2.Cargo.Text := CargoEntrada.Text;
+    Form2.Telefone.Text := TelefoneEntrada.Text;
+    Form2.Email.Text := EmailEntrada.Text;
+    Form2.ShowModal;
+  finally
+    Form2.Free;
+  end;
+end;
+end.
+

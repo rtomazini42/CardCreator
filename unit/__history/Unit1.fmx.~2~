@@ -1,0 +1,107 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 720
+  ClientWidth = 480
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout2: TLayout
+    Align = Client
+    Size.Width = 480.000000000000000000
+    Size.Height = 556.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object Rectangle2: TRectangle
+      Align = Client
+      Fill.Color = claWhite
+      Size.Width = 480.000000000000000000
+      Size.Height = 556.000000000000000000
+      Size.PlatformDefault = False
+      object Edit1: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 3
+        TextSettings.Font.Size = 36.000000000000000000
+        Position.X = 64.000000000000000000
+        Position.Y = 64.000000000000000000
+        Size.Width = 345.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Nome'
+        StyledSettings = [Family, Style, FontColor]
+      end
+      object Edit2: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 2
+        TextSettings.Font.Size = 36.000000000000000000
+        Position.X = 64.000000000000000000
+        Position.Y = 136.000000000000000000
+        Size.Width = 345.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Cargo/Titulo'
+        StyledSettings = [Family, Style, FontColor]
+      end
+      object Edit3: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 1
+        TextSettings.Font.Size = 36.000000000000000000
+        Position.X = 64.000000000000000000
+        Position.Y = 216.000000000000000000
+        Size.Width = 345.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Email'
+        StyledSettings = [Family, Style, FontColor]
+      end
+      object Edit4: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        TabOrder = 0
+        TextSettings.Font.Size = 36.000000000000000000
+        Position.X = 64.000000000000000000
+        Position.Y = 296.000000000000000000
+        Size.Width = 345.000000000000000000
+        Size.Height = 49.000000000000000000
+        Size.PlatformDefault = False
+        TextPrompt = 'Telefone'
+        StyledSettings = [Family, Style, FontColor]
+      end
+      object SpeedButton1: TSpeedButton
+        Position.X = 184.000000000000000000
+        Position.Y = 440.000000000000000000
+        Text = 'SpeedButton1'
+      end
+    end
+  end
+  object Layout3: TLayout
+    Align = Bottom
+    Position.Y = 656.000000000000000000
+    Size.Width = 480.000000000000000000
+    Size.Height = 64.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object Rectangle3: TRectangle
+      Align = Client
+      Fill.Color = xFF550480
+      Size.Width = 480.000000000000000000
+      Size.Height = 64.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object Layout1: TLayout
+    Align = Top
+    Size.Width = 480.000000000000000000
+    Size.Height = 100.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object Rectangle1: TRectangle
+      Align = Client
+      Fill.Color = xFF210270
+      Size.Width = 480.000000000000000000
+      Size.Height = 100.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end
