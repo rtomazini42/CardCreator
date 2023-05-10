@@ -14,7 +14,7 @@ uses
 begin
   Application.Initialize;
   Application.CreateForm(TForm1, Form1);
-  // Certifique-se de criar o TForm1 como formulário principal
+  / Certifique-se de criar o TForm1 como formulário principal
   Application.CreateForm(TForm2, Form2);
   Application.CreateForm(TForm3, Form3);
   Application.Run;
